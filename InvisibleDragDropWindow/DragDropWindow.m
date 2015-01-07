@@ -32,8 +32,8 @@
                 return YES;
             }];
         };
-
-        // start with red background so we can see where the window is
+        
+        // for demo purposes start with red background so we can see where the window is
         [layer setContents:colorImage([NSColor redColor])];
         
         // switch to clear background after 3 seconds
