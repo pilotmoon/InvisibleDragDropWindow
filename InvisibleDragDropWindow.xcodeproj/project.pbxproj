@@ -10,6 +10,7 @@
 		01CEC7111A5D76050086DDEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CEC7101A5D76050086DDEC /* AppDelegate.m */; };
 		01CEC7131A5D76050086DDEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CEC7121A5D76050086DDEC /* main.m */; };
 		01CEC72F1A5D76330086DDEC /* DragDropWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CEC72E1A5D76330086DDEC /* DragDropWindow.m */; };
+		01CEC73B1A5DA6CA0086DDEC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01CEC7391A5DA6CA0086DDEC /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		01CEC7121A5D76050086DDEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		01CEC72D1A5D76330086DDEC /* DragDropWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragDropWindow.h; sourceTree = "<group>"; };
 		01CEC72E1A5D76330086DDEC /* DragDropWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragDropWindow.m; sourceTree = "<group>"; };
+		01CEC73A1A5DA6CA0086DDEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		01CEC70C1A5D76050086DDEC /* InvisibleDragDropWindow */ = {
 			isa = PBXGroup;
 			children = (
+				01CEC7391A5DA6CA0086DDEC /* MainMenu.xib */,
 				01CEC70F1A5D76050086DDEC /* AppDelegate.h */,
 				01CEC7101A5D76050086DDEC /* AppDelegate.m */,
 				01CEC72D1A5D76330086DDEC /* DragDropWindow.h */,
@@ -127,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01CEC73B1A5DA6CA0086DDEC /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +148,17 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		01CEC7391A5DA6CA0086DDEC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01CEC73A1A5DA6CA0086DDEC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		01CEC7251A5D76050086DDEC /* Debug */ = {
@@ -180,10 +195,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -216,9 +231,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
