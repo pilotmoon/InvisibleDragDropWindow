@@ -1,5 +1,4 @@
 # InvisibleDragDropWindow
-A technique to achieve a transparent window that accepts drag &amp; drop
+A technique to achieve a fully transparent window that accepts drag &amp; drop.
 
-- Recommended build tool: Xcode 6.1
-- SDK: 10.10
+Developed with Xcode 6.1 on 10.10, using 10.10 SDK.
