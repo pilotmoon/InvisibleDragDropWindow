@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01CEC7111A5D76050086DDEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CEC7101A5D76050086DDEC /* AppDelegate.m */; };
+		01CEC7131A5D76050086DDEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CEC7121A5D76050086DDEC /* main.m */; };
+		01CEC7151A5D76050086DDEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01CEC7141A5D76050086DDEC /* Images.xcassets */; };
+		01CEC7181A5D76050086DDEC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01CEC7161A5D76050086DDEC /* MainMenu.xib */; };
+		01CEC7241A5D76050086DDEC /* InvisibleDragDropWindowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CEC7231A5D76050086DDEC /* InvisibleDragDropWindowTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01CEC71E1A5D76050086DDEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01CEC7021A5D76050086DDEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01CEC7091A5D76050086DDEC;
+			remoteInfo = InvisibleDragDropWindow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01CEC70A1A5D76050086DDEC /* InvisibleDragDropWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InvisibleDragDropWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01CEC70E1A5D76050086DDEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01CEC70F1A5D76050086DDEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01CEC7101A5D76050086DDEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01CEC7121A5D76050086DDEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01CEC7141A5D76050086DDEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		01CEC7171A5D76050086DDEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		01CEC71D1A5D76050086DDEC /* InvisibleDragDropWindowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InvisibleDragDropWindowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01CEC7221A5D76050086DDEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01CEC7231A5D76050086DDEC /* InvisibleDragDropWindowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InvisibleDragDropWindowTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01CEC7071A5D76050086DDEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CEC71A1A5D76050086DDEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01CEC7011A5D76050086DDEC = {
+			isa = PBXGroup;
+			children = (
+				01CEC70C1A5D76050086DDEC /* InvisibleDragDropWindow */,
+				01CEC7201A5D76050086DDEC /* InvisibleDragDropWindowTests */,
+				01CEC70B1A5D76050086DDEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01CEC70B1A5D76050086DDEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01CEC70A1A5D76050086DDEC /* InvisibleDragDropWindow.app */,
+				01CEC71D1A5D76050086DDEC /* InvisibleDragDropWindowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01CEC70C1A5D76050086DDEC /* InvisibleDragDropWindow */ = {
+			isa = PBXGroup;
+			children = (
+				01CEC70F1A5D76050086DDEC /* AppDelegate.h */,
+				01CEC7101A5D76050086DDEC /* AppDelegate.m */,
+				01CEC7141A5D76050086DDEC /* Images.xcassets */,
+				01CEC7161A5D76050086DDEC /* MainMenu.xib */,
+				01CEC70D1A5D76050086DDEC /* Supporting Files */,
+			);
+			path = InvisibleDragDropWindow;
+			sourceTree = "<group>";
+		};
+		01CEC70D1A5D76050086DDEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01CEC70E1A5D76050086DDEC /* Info.plist */,
+				01CEC7121A5D76050086DDEC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01CEC7201A5D76050086DDEC /* InvisibleDragDropWindowTests */ = {
+			isa = PBXGroup;
+			children = (
+				01CEC7231A5D76050086DDEC /* InvisibleDragDropWindowTests.m */,
+				01CEC7211A5D76050086DDEC /* Supporting Files */,
+			);
+			path = InvisibleDragDropWindowTests;
+			sourceTree = "<group>";
+		};
+		01CEC7211A5D76050086DDEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01CEC7221A5D76050086DDEC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01CEC7091A5D76050086DDEC /* InvisibleDragDropWindow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01CEC7271A5D76050086DDEC /* Build configuration list for PBXNativeTarget "InvisibleDragDropWindow" */;
+			buildPhases = (
+				01CEC7061A5D76050086DDEC /* Sources */,
+				01CEC7071A5D76050086DDEC /* Frameworks */,
+				01CEC7081A5D76050086DDEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InvisibleDragDropWindow;
+			productName = InvisibleDragDropWindow;
+			productReference = 01CEC70A1A5D76050086DDEC /* InvisibleDragDropWindow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01CEC71C1A5D76050086DDEC /* InvisibleDragDropWindowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01CEC72A1A5D76050086DDEC /* Build configuration list for PBXNativeTarget "InvisibleDragDropWindowTests" */;
+			buildPhases = (
+				01CEC7191A5D76050086DDEC /* Sources */,
+				01CEC71A1A5D76050086DDEC /* Frameworks */,
+				01CEC71B1A5D76050086DDEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01CEC71F1A5D76050086DDEC /* PBXTargetDependency */,
+			);
+			name = InvisibleDragDropWindowTests;
+			productName = InvisibleDragDropWindowTests;
+			productReference = 01CEC71D1A5D76050086DDEC /* InvisibleDragDropWindowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01CEC7021A5D76050086DDEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Pilotmoon Software";
+				TargetAttributes = {
+					01CEC7091A5D76050086DDEC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					01CEC71C1A5D76050086DDEC = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 01CEC7091A5D76050086DDEC;
+					};
+				};
+			};
+			buildConfigurationList = 01CEC7051A5D76050086DDEC /* Build configuration list for PBXProject "InvisibleDragDropWindow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01CEC7011A5D76050086DDEC;
+			productRefGroup = 01CEC70B1A5D76050086DDEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01CEC7091A5D76050086DDEC /* InvisibleDragDropWindow */,
+				01CEC71C1A5D76050086DDEC /* InvisibleDragDropWindowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01CEC7081A5D76050086DDEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01CEC7151A5D76050086DDEC /* Images.xcassets in Resources */,
+				01CEC7181A5D76050086DDEC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CEC71B1A5D76050086DDEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01CEC7061A5D76050086DDEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01CEC7131A5D76050086DDEC /* main.m in Sources */,
+				01CEC7111A5D76050086DDEC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CEC7191A5D76050086DDEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01CEC7241A5D76050086DDEC /* InvisibleDragDropWindowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01CEC71F1A5D76050086DDEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01CEC7091A5D76050086DDEC /* InvisibleDragDropWindow */;
+			targetProxy = 01CEC71E1A5D76050086DDEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01CEC7161A5D76050086DDEC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01CEC7171A5D76050086DDEC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01CEC7251A5D76050086DDEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		01CEC7261A5D76050086DDEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		01CEC7281A5D76050086DDEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = InvisibleDragDropWindow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01CEC7291A5D76050086DDEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = InvisibleDragDropWindow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01CEC72B1A5D76050086DDEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InvisibleDragDropWindowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InvisibleDragDropWindow.app/Contents/MacOS/InvisibleDragDropWindow";
+			};
+			name = Debug;
+		};
+		01CEC72C1A5D76050086DDEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InvisibleDragDropWindowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InvisibleDragDropWindow.app/Contents/MacOS/InvisibleDragDropWindow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01CEC7051A5D76050086DDEC /* Build configuration list for PBXProject "InvisibleDragDropWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01CEC7251A5D76050086DDEC /* Debug */,
+				01CEC7261A5D76050086DDEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01CEC7271A5D76050086DDEC /* Build configuration list for PBXNativeTarget "InvisibleDragDropWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01CEC7281A5D76050086DDEC /* Debug */,
+				01CEC7291A5D76050086DDEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01CEC72A1A5D76050086DDEC /* Build configuration list for PBXNativeTarget "InvisibleDragDropWindowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01CEC72B1A5D76050086DDEC /* Debug */,
+				01CEC72C1A5D76050086DDEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01CEC7021A5D76050086DDEC /* Project object */;
+}
